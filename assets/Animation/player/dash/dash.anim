@@ -1,0 +1,115 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "dash",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.7,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "77bbad8c-4f68-4b10-9227-c50d8dd0a13f"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "99c1e3a5-c4cc-4337-acb9-12d8adf738c1"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "2561fdf4-9bce-4754-8012-0566eb67c2b1"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "45b9c244-0789-471a-b947-669c78ea13db"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "0085adf2-8d7c-4340-bb32-697aea54aabe"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "7c701dcf-f239-44c3-8c34-c80efa33bfea"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "85cd3226-ed96-4e6f-b9c4-b04b92d60c5f"
+            }
+          },
+          {
+            "frame": 0.35,
+            "value": {
+              "__uuid__": "4563f547-f1a1-48e7-be23-d9af70bfa35d"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "5bac77ed-c7e1-46d1-bafd-7568b7f0ccb7"
+            }
+          },
+          {
+            "frame": 0.45,
+            "value": {
+              "__uuid__": "d68bb430-2e9a-49b3-ac9e-c08e65a6d2cf"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "66ad36e2-86ad-4ac7-98e8-7c4f8794d149"
+            }
+          },
+          {
+            "frame": 0.55,
+            "value": {
+              "__uuid__": "56fca2c5-9e33-40d1-92bc-802d6bc2c8e6"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "871218e3-b1ba-4917-90cc-912c2d61f8a2"
+            }
+          },
+          {
+            "frame": 0.65,
+            "value": {
+              "__uuid__": "92e5d0a4-54e5-43b9-8f2b-21707e90effc"
+            }
+          }
+        ]
+      }
+    },
+    "paths": {
+      "SwordLight": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

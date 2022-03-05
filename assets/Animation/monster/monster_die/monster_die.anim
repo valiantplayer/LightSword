@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "monster_die",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 7,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "311d4bfb-f809-4e39-8d7c-4713e2d7a459"
+            }
+          },
+          {
+            "frame": 0.14285714285714285,
+            "value": {
+              "__uuid__": "3a523555-abe4-4cca-9eaa-c4ed531e1b73"
+            }
+          },
+          {
+            "frame": 0.2857142857142857,
+            "value": {
+              "__uuid__": "4bfc3393-25ba-4cff-9b92-cc98b4210742"
+            }
+          },
+          {
+            "frame": 0.42857142857142855,
+            "value": {
+              "__uuid__": "422eb48a-c942-4c8b-9d4c-f8950a657a8c"
+            }
+          },
+          {
+            "frame": 0.5714285714285714,
+            "value": {
+              "__uuid__": "add5a78d-d60c-4e54-b123-1d07ba84d100"
+            }
+          },
+          {
+            "frame": 0.7142857142857143,
+            "value": {
+              "__uuid__": "5dcf1b0c-1ba1-4d96-b66d-8286904e7626"
+            }
+          },
+          {
+            "frame": 0.8571428571428571,
+            "value": {
+              "__uuid__": "e4e20222-6280-4358-9790-7ec3b3ffd4b1"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

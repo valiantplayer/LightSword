@@ -1,0 +1,157 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "atk_a",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 24,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "46be1bc4-e9ce-49fb-bdc5-e9ef62961af9"
+            }
+          },
+          {
+            "frame": 0.041666666666666664,
+            "value": {
+              "__uuid__": "25a38de0-371a-4610-ad85-877c1811d7a6"
+            }
+          },
+          {
+            "frame": 0.20833333333333334,
+            "value": {
+              "__uuid__": "c1a9e200-b28a-4664-88ac-7f1ff74982f2"
+            }
+          },
+          {
+            "frame": 0.2916666666666667,
+            "value": {
+              "__uuid__": "23c513e6-75e2-4b7e-8cd7-47310e678d8e"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "9edb6c7a-1c57-4c06-86e1-4747a992e6e0"
+            }
+          },
+          {
+            "frame": 0.4583333333333333,
+            "value": {
+              "__uuid__": "9df1252d-3e8a-4e61-8b83-17081f262a7a"
+            }
+          }
+        ]
+      }
+    },
+    "paths": {
+      "SwordLight": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "009615e6-0e3b-4fbd-8f13-028cd1fe3193"
+                }
+              },
+              {
+                "frame": 0.041666666666666664,
+                "value": {
+                  "__uuid__": "0731a6fb-35b5-4f86-9451-f025108e6284"
+                }
+              },
+              {
+                "frame": 0.20833333333333334,
+                "value": {
+                  "__uuid__": "21d2f85d-2465-46a7-9053-c8b2a72e391e"
+                }
+              },
+              {
+                "frame": 0.2916666666666667,
+                "value": {
+                  "__uuid__": "36954987-94a5-4122-bfc2-9820b9098f2a"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": false
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 155
+            }
+          ],
+          "color": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 4,
+                "g": 4,
+                "b": 4,
+                "a": 255
+              }
+            }
+          ]
+        }
+      },
+      "player_hitBox": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.041666666666666664,
+              "value": true
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.375,
+      "func": "finish",
+      "params": []
+    }
+  ]
+}

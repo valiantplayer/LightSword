@@ -1,0 +1,110 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "run_action",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 8,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "62d9de55-aea5-45e6-aa11-dee5f805e3f9"
+            }
+          },
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "5344b4c6-c5dc-40b2-ad48-dc974bb81a16"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "ecf85c6b-bb12-4019-8dc1-7ec9d9b0dece"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "0bc3b1bf-ed12-421e-b4d3-741728142287"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "f4975c98-8e65-4898-b822-3675b87dcc16"
+            }
+          },
+          {
+            "frame": 0.625,
+            "value": {
+              "__uuid__": "1917055e-8683-4587-a386-5fe29db40e79"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "045637da-6931-4556-be4e-ddc31ba13833"
+            }
+          },
+          {
+            "frame": 0.875,
+            "value": {
+              "__uuid__": "62d9de55-aea5-45e6-aa11-dee5f805e3f9"
+            }
+          }
+        ]
+      }
+    },
+    "paths": {
+      "player_hitBox": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "SwordLight": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.125,
+      "func": "soundRun",
+      "params": []
+    },
+    {
+      "frame": 0.375,
+      "func": "soundRun",
+      "params": []
+    },
+    {
+      "frame": 0.625,
+      "func": "soundRun",
+      "params": []
+    },
+    {
+      "frame": 0.875,
+      "func": "soundRun",
+      "params": []
+    }
+  ]
+}

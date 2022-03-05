@@ -1,0 +1,45 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "stone2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.6166666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        },
+        {
+          "frame": 0.4666666666666667,
+          "value": 112
+        },
+        {
+          "frame": 0.8333333333333334,
+          "value": 0
+        },
+        {
+          "frame": 1.15,
+          "value": 0
+        },
+        {
+          "frame": 1.2333333333333334,
+          "value": 18
+        },
+        {
+          "frame": 2.3,
+          "value": 255
+        },
+        {
+          "frame": 2.6166666666666667,
+          "value": 255
+        }
+      ]
+    }
+  },
+  "events": []
+}

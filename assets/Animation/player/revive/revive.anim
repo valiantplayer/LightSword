@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "revive",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.8,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "767ad17b-0be2-470b-a293-0c2f3c483b34"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "b1f0fe7f-ff01-4258-b762-c5b35dcf9dad"
+            }
+          },
+          {
+            "frame": 0.65,
+            "value": {
+              "__uuid__": "2b1b13e9-b91b-4a9b-b5a5-f77f5e9eb141"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "980430d2-254a-436d-bbc8-ba47aa400db4"
+            }
+          },
+          {
+            "frame": 1.45,
+            "value": {
+              "__uuid__": "dfa84dae-30fa-41a0-b381-44b9fd8bb3e8"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1.8,
+      "func": "revive",
+      "params": []
+    }
+  ]
+}

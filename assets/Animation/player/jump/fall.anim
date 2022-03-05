@@ -1,0 +1,44 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fall",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.25,
+  "sample": 16,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "73b34098-86b6-4b7a-a080-8b9f131b4fbd"
+            }
+          },
+          {
+            "frame": 0.0625,
+            "value": {
+              "__uuid__": "dfbd6857-05c0-480c-b83f-5aa302db7025"
+            }
+          },
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "e6468973-eb06-4ee3-86fd-71f881998abf"
+            }
+          },
+          {
+            "frame": 0.1875,
+            "value": {
+              "__uuid__": "35f86081-91f4-474c-992b-01e3963cdb3c"
+            }
+          }
+        ]
+      }
+    },
+    "paths": {}
+  },
+  "events": []
+}

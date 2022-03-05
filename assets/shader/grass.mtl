@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.Material",
+  "_name": "grass",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "d6e5c2d2-fcfd-4d1b-abb4-28b8252c3c97"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}
