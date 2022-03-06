@@ -46,16 +46,8 @@ export default class playerHurtBox extends cc.Component {
       Uinfo.player_hp = 0;
       Uinfo.player_state = "death";
       this.player_animation.play("death");
-      findNode(this.Canvas, "UILayer").destroy();
-      //死亡黑幕
-      let blackmask: cc.Node = findNode(this.Canvas, "blackmask");
-      blackmask.active = true;
-      blackmask.zIndex = 999;
-      blackmask.setPosition(this.player_parent.x + 180, this.player_parent.y);
-      blackmask.getComponent(cc.Animation).play("blackmask");
-      setTimeout(() => {
-        cc.director.loadScene("Death");
-      }, 3500);
+      //死亡黑雾
+      Uinfo.Black();
       return;
     }
   }

@@ -88,9 +88,13 @@ export default class MonsterHurtBox extends cc.Component {
   }
   //怪物死亡
   die() {
+    Uinfo.monster_number--;
     this.monster_scrpit.monster_state = "Death";
     this.node.parent.getComponent(cc.Animation).play("monster_die");
     this.progressBar.node.active = false;
+    if (Uinfo.monster_number == 0) {
+      Uinfo.Black();
+    }
   }
   onCollisionEnter(other, self) {
     this.refreshHp();
